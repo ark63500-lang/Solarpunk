@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed72eee296715a49b5660be2a6ed6e0, type: 3}
+  m_Name: fraise
+  m_EditorClassIdentifier: Assembly-CSharp::PlantType
+  nom: Fraise
+  couleurGraine: {r: 0.9, g: 0.15, b: 0.2, a: 1}
+  prefabPlante: {fileID: 4867479751117239672, guid: c1b3767449eb04e49ae29e02d6b79400, type: 3}
+  stades:
+  - {fileID: 919132149155446097, guid: 41f2d5205b0695a4096fa5a57827103b, type: 3}
+  - {fileID: 919132149155446097, guid: 01b61624cc159e54ba3fef51718db37f, type: 3}
+  - {fileID: 919132149155446097, guid: dee8a292f7429184faeaaf5090e7a909, type: 3}
+  - {fileID: 919132149155446097, guid: 6e3d00d36fb3b304ea43539f02b2eb7b, type: 3}
+  tempsPousse: 5
+  tempsMaturite: 10
+  tempsAvantPourriture: 20
+  tempsAvantExplosion: 8
+  points: 15
+  penaliteExplosion: 5
+  echelle: 1

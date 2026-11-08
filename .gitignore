@@ -1,0 +1,58 @@
+# Dossiers générés par Unity (régénérés à l'ouverture du projet)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Builds (la version jouable est sur itch.io)
+/[Bb]uild/
+/[Bb]uilds/
+/BuildFarmWeb/
+/BuildFarmWeb.zip
+
+# Anciennes scènes de sauvegarde, hors projet
+/_Archives/
+
+# Unity Version Control (dépôt UVCS séparé)
+/.plastic/
+/ignore.conf
+
+# Fichiers générés par les éditeurs de code
+.vs/
+.vscode/
+.idea/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Fichiers divers générés
+sysinfo.txt
+crashlytics-build.properties
+*.apk
+*.aab
+*.unitypackage
+~UnityDirMonSyncFile~*
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+Desktop.ini

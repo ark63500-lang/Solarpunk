@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed72eee296715a49b5660be2a6ed6e0, type: 3}
+  m_Name: carotte
+  m_EditorClassIdentifier: Assembly-CSharp::PlantType
+  nom: Carotte
+  couleurGraine: {r: 1, g: 0.55, b: 0.1, a: 1}
+  prefabPlante: {fileID: 5260945226525390044, guid: ca56e36b112ddc54fa9966d0ddd85dca, type: 3}
+  stades:
+  - {fileID: 919132149155446097, guid: 56110d56c0b157c4db7ec1ad88adcc7a, type: 3}
+  - {fileID: 919132149155446097, guid: 0170ee60aa3c6c74b97d378d5685e552, type: 3}
+  - {fileID: 919132149155446097, guid: 27f3f57c26415704b917cee4ff58e10f, type: 3}
+  - {fileID: 919132149155446097, guid: 24b43d08319be5c4e9ffef129dff2210, type: 3}
+  tempsPousse: 5
+  tempsMaturite: 10
+  tempsAvantPourriture: 20
+  tempsAvantExplosion: 8
+  points: 10
+  penaliteExplosion: 5
+  echelle: 1
