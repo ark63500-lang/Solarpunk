@@ -1,6 +1,7 @@
+// RotorEolienne : fait tourner les pales des éoliennes du décor, chacune à une vitesse un peu différente.
+
 using UnityEngine;
 
-// rotation des pales des éoliennes
 public class RotorEolienne : MonoBehaviour
 {
     public float vitesse = 90f;

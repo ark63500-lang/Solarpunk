@@ -1,7 +1,8 @@
+// Helice : fait tourner une hélice du drone autour de son centre.
+
 using UnityEngine;
 using UnityEngine.Serialization;
 
-// fait tourner une hélice du drone
 public class Helice : MonoBehaviour
 {
     public float vitesse = 1500f;

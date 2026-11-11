@@ -1,9 +1,11 @@
+// DroneCommandes : lit les commandes du joueur (clavier et manette) avec l'Input System.
+// Chaque action est une référence glissée dans l'Inspector, aucun nom d'action n'est écrit en dur.
+// Pendant la pause, seule l'action Menu reste écoutée.
+
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-// lit les actions de l'input system (clavier + manette)
-// chaque action est une référence glissée dans l'Inspector, aucun nom d'action écrit en dur
 [DefaultExecutionOrder(-100)]
 public class DroneCommandes : MonoBehaviour
 {

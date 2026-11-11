@@ -1,8 +1,10 @@
+// EcranFin : écran de fin de partie.
+// Affiche le score, le meilleur score et le nombre de légumes récoltés, et gère les boutons Rejouer et Menu.
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-// écran de fin, affiche les scores sauvegardés
 public class EcranFin : MonoBehaviour
 {
     public string sceneJeu = "Jeu";

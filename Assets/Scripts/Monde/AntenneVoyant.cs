@@ -1,6 +1,7 @@
+// AntenneVoyant : fait clignoter le voyant rouge en haut de l'antenne.
+
 using UnityEngine;
 
-// voyant qui clignote en haut de l'antenne
 public class AntenneVoyant : MonoBehaviour
 {
     public Renderer voyant;

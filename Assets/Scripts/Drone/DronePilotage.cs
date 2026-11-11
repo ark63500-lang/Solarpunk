@@ -1,6 +1,8 @@
+// DronePilotage : déplace le drone selon les commandes, à hauteur constante.
+// Les directions suivent l'orientation de la caméra et le modèle s'incline dans le sens du mouvement.
+
 using UnityEngine;
 
-// déplacement du drone, les directions dépendent de la caméra
 [RequireComponent(typeof(DroneCommandes))]
 public class DronePilotage : MonoBehaviour
 {

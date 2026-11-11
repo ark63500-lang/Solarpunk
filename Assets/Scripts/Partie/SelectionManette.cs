@@ -1,10 +1,11 @@
+// SelectionManette : resélectionne un bouton quand la souris l'a désélectionné.
+// Écoute les actions du module UI de l'Input System : clavier et manette passent par le même code.
+
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem.UI;
 using UnityEngine.UI;
 
-// si la souris a désélectionné le bouton, on le resélectionne dès que le joueur navigue ou valide
-// on écoute les actions du module UI de l'Input System : clavier et manette passent par le même code
 public class SelectionManette : MonoBehaviour
 {
     public Selectable parDefaut;

@@ -1,7 +1,10 @@
+// DroneSignal : portée radio de l'antenne.
+// Plus le drone s'éloigne, plus le signal baisse et plus il tremble ;
+// sans signal, il tombe, l'écran passe au noir et il réapparaît au point de départ.
+
 using System.Collections;
 using UnityEngine;
 
-// portée radio de l'antenne : trop loin le drone tombe et réapparaît au départ
 [RequireComponent(typeof(DroneCorps))]
 public class DroneSignal : MonoBehaviour
 {

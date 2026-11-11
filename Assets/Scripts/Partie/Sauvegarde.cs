@@ -1,6 +1,8 @@
+// Sauvegarde : enregistre le meilleur score et la dernière partie avec PlayerPrefs.
+// Les données restent sur l'ordinateur même après avoir fermé le jeu.
+
 using UnityEngine;
 
-// Sauvegarde du meilleur score et de la dernière partie avec PlayerPrefs
 public static class Sauvegarde
 {
     const string CleMeilleur = "MeilleurScore";

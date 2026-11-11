@@ -1,7 +1,10 @@
+// Graine : la graine lâchée par le drone.
+// Si elle tombe sur un champ, elle fait naître une plante (la variante du légume choisi) ;
+// si elle tombe ailleurs ou trop près d'une autre plante, elle disparaît.
+
 using UnityEngine;
 using UnityEngine.Serialization;
 
-// la graine lâchée par le drone, si elle tombe sur un champ ça fait une plante
 [RequireComponent(typeof(Rigidbody))]
 public class Graine : MonoBehaviour
 {

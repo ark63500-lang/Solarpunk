@@ -1,8 +1,11 @@
+// DroneAspirateur : récolte les légumes mûrs sous le drone avec une tornade.
+// Le légume est aspiré en spirale vers le drone, puis la Partie compte la récolte et les points.
+// Les légumes pourris ne se récoltent pas : ils finissent par éclater.
+
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-// aspire les légumes mûrs sous le drone avec une tornade (les pourris ne se récoltent pas, ils éclatent)
 [RequireComponent(typeof(DroneCommandes), typeof(DroneCorps))]
 public class DroneAspirateur : MonoBehaviour
 {

@@ -1,6 +1,7 @@
+// DronePassageMenu : fait passer le drone de temps en temps dans le décor de l'écran titre.
+
 using UnityEngine;
 
-// fait passer le drone de temps en temps dans le décor du menu
 public class DronePassageMenu : MonoBehaviour
 {
     public Transform drone;

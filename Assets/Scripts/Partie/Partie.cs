@@ -1,10 +1,12 @@
+// Partie : état d'une partie (score, chrono, plantes au champ, récoltes).
+// Pas de singleton ni de static : les objets qui en ont besoin reçoivent une référence à la Partie (injection).
+// Prévient le reste du jeu par des événements (points, récolte, explosion) et lance l'écran de fin.
+
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// état de la partie : score, chrono, plantes au champ et récoltes
-// pas de singleton ni de static : les objets qui en ont besoin reçoivent une référence à la Partie (injection)
 public class Partie : MonoBehaviour
 {
     public event Action<int, Vector3> QuandPoints;

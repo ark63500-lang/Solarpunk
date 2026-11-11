@@ -1,8 +1,10 @@
+// MenuPause : menu pause en cours de partie.
+// Fige le jeu et propose de reprendre, recommencer, revenir au menu ou quitter.
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-// menu pause en cours de partie : reprendre, recommencer, revenir au menu ou quitter
 public class MenuPause : MonoBehaviour
 {
     [Header("Scènes")]
@@ -67,7 +69,6 @@ public class MenuPause : MonoBehaviour
         SceneManager.LoadScene(scene);
     }
 
-    // sécurité : on ne laisse jamais le jeu figé en quittant la scène
     void OnDestroy()
     {
         Time.timeScale = 1f;

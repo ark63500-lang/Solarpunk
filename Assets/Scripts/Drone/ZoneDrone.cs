@@ -1,7 +1,9 @@
+// ZoneDrone : zone de détection (Trigger) sous le drone.
+// Garde la liste des plantes qui se trouvent dessous, pour l'arrosage et la récolte.
+
 using System.Collections.Generic;
 using UnityEngine;
 
-// zone de détection (Trigger) sous le drone : garde la liste des plantes qui sont dessous
 [RequireComponent(typeof(Rigidbody))]
 public class ZoneDrone : MonoBehaviour
 {

@@ -1,6 +1,8 @@
+// DroneArrosage : arrose les plantes sous le drone tant que le bouton est maintenu.
+// Lance le jet de particules et fait pousser plus vite les plantes arrosées.
+
 using UnityEngine;
 
-// arrose les plantes sous le drone pour qu'elles poussent plus vite
 [RequireComponent(typeof(DroneCommandes))]
 public class DroneArrosage : MonoBehaviour
 {

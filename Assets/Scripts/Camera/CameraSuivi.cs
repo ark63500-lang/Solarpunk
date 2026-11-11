@@ -1,6 +1,8 @@
+// CameraSuivi : la caméra suit le drone en douceur.
+// Elle garde le même décalage que dans la scène et se rapproche plus vite quand le drone recule.
+
 using UnityEngine;
 
-// caméra qui suit le drone avec un lissage
 public class CameraSuivi : MonoBehaviour
 {
     public Transform cible;

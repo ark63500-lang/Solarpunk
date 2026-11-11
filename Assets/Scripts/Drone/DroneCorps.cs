@@ -1,6 +1,8 @@
+// DroneCorps : calcule la boîte englobante du drone.
+// Sert aux autres scripts pour savoir où est le centre et le bas du drone.
+
 using UnityEngine;
 
-// boîte englobante du drone, sert à savoir où est le bas du drone
 public class DroneCorps : MonoBehaviour
 {
     Renderer[] rendus;

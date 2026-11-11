@@ -1,7 +1,10 @@
+// SonsJeu : gère tous les sons du jeu au même endroit.
+// Joue en boucle le moteur du drone, la tornade, l'arrosage, les parasites radio et la musique,
+// et déclenche les effets (graine lâchée, récolte, explosion) grâce aux événements de la Partie et du drone.
+
 using UnityEngine;
 using UnityEngine.Serialization;
 
-// tous les sons du jeu au même endroit, déclenchés par les événements de la Partie et du drone
 public class SonsJeu : MonoBehaviour
 {
     [Header("Références")]

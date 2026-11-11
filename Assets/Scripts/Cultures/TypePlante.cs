@@ -1,7 +1,9 @@
+// TypePlante : réglages d'un légume (carotte, fraise, maïs) dans un ScriptableObject.
+// Contient les modèles de chaque stade, les durées de croissance, les points et la pénalité.
+
 using UnityEngine;
 using UnityEngine.Serialization;
 
-// scriptable object pour régler chaque légume (carotte, fraise, maïs)
 [CreateAssetMenu(fileName = "NouvellePlante", menuName = "Ferme/Type de plante")]
 public class TypePlante : ScriptableObject
 {

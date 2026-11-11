@@ -1,9 +1,11 @@
+// InterfaceFerme : met à jour toute l'interface en jeu.
+// Score, chrono, compteurs des plantes, barre de graines, aide des touches et signal radio.
+
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
 
-// met à jour toute l'interface en jeu
 public class InterfaceFerme : MonoBehaviour
 {
     [Header("Références")]

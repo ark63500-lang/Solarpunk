@@ -1,8 +1,10 @@
+// MenuPrincipal : écran titre du jeu.
+// Affiche le meilleur score et gère les boutons Jouer et Quitter.
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-// menu du début
 public class MenuPrincipal : MonoBehaviour
 {
     public string sceneJeu = "Jeu";

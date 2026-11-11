@@ -1,7 +1,10 @@
+// Plante : une plante qui pousse dans le champ.
+// Elle passe par 4 stades (plantée, pousse, mûre, pourrie) grâce à une coroutine ;
+// l'arrosage accélère la croissance, et une plante pourrie finit par exploser.
+
 using System.Collections;
 using UnityEngine;
 
-// une plante dans le champ, elle passe par 4 stades puis explose si on la récolte pas
 public class Plante : MonoBehaviour
 {
     [SerializeField] Transform visuel;

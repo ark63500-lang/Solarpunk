@@ -1,8 +1,10 @@
+// LanceurGraines : choix de la graine et largage sous le drone.
+// Transmet la Partie et le conteneur des plantes à chaque graine créée.
+
 using System;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-// choix de la graine et largage
 [RequireComponent(typeof(DroneCommandes), typeof(DroneCorps))]
 public class LanceurGraines : MonoBehaviour
 {
